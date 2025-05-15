@@ -1,0 +1,322 @@
+*{
+    font-family: "Oswald", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.subtitulo_inicio{
+    text-align: center;
+}
+body{
+    background-color: rgb(253, 241, 225) !important;
+}
+.lista_personajes{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(62, 128, 252);
+    font-size: 20px;
+}
+.peliculas ul{
+    text-align: center;
+    background-color: rgb(62, 128, 252);
+    list-style-type: none;
+    text-decoration: none;
+}
+.peliculas ul li{
+    font-size: 20px;
+}
+.personajes_img{
+    padding-left: 36%;
+}
+.peliculas_img{
+    padding-left: 21%;
+}
+.resumen_disney{
+    text-align: center;
+    background-color: rgb(62, 128, 252);
+}
+.resumen{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.contenedor-grid img{
+    height: 100%;
+    width: 100%;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 25% 40% 25%;
+    grid-template-rows:100px 300px 300px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.titulo1{
+    grid-column: 1/4;
+}
+.img_inicio1{
+    grid-column: 1;
+    grid-row: 2/3;
+}
+.resumen_disney1{
+    grid-column: 2/3;
+    grid-row: 2;
+    background-color: aliceblue;
+}
+.resumen_disney2{
+    grid-column: 2/3;
+    grid-row: 3;
+    background-color: aliceblue;
+}
+.img_inicio2{
+    grid-column: 3;
+    grid-row: 2/4;
+}
+.img_inicio3{
+    grid-column: 1;
+    grid-row: 3/4;
+}
+.texto_inicio{
+    background-color: aliceblue;
+}
+.contenedor_grid_historia{
+    display: grid;
+    grid-template-columns: 25% 40% 25%;
+    grid-template-rows: 100px 200px 200px 200px 200px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.titulo_historia{
+    grid-column: 1/4;
+}
+.img_historia1{
+    grid-column: 1;
+    grid-row: 3/4;
+    width: 300px;
+    height: 400px;
+}
+.img_historia2{
+    grid-column: 3;
+    grid-row: 2/6;
+    height: 800px;
+    width: 400px;
+}
+.texto_historia{
+    grid-column: 2;
+    grid-row: 2/6;
+    background-color: aliceblue;
+}
+.texto_historia p{
+    font-size: 15px;
+}
+/* visualizacion para celulares */
+@media (max-width: 480px) {
+
+    /* historia */
+
+    .contenedor_grid_historia {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto auto auto auto;
+        gap: 10px; 
+        padding: 10px;
+    }
+    
+    .titulo_historia {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .contenedor_grid_historia img{
+        width: 400px;
+        height: 500px;
+    }
+    .img_historia1{
+        grid-column: 1;
+        grid-row: 2; 
+    }
+    .img_historia2 {
+        grid-column: 1;
+        grid-row: 7; 
+    }
+
+    .texto_historia {
+        grid-column: 1; 
+        grid-row:3/6 ;
+        font-size: 14px;
+        padding: 10px;
+    }
+    /* inicio */
+
+    .contenedor-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .contenedor-grid img {
+        width: 200px;
+        height: auto;
+        object-position: center;
+    }
+    .img_inicio1, .img_inicio2, .img_inicio3 {
+        grid-column: 1;
+    }
+
+    .img_inicio1 {
+        grid-row: 2;
+    }
+
+    .img_inicio2 {
+        grid-row: 3;
+    }
+
+    .img_inicio3 {
+        grid-row: 4;
+    }
+
+    .titulo1 {
+        grid-column: 1/4;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .resumen_disney1, .resumen_disney2 {
+        grid-column: 2/4;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* Barra de navegación */
+    /* header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    header li {
+        margin: 5px 0;
+    }
+
+    header li a {
+        font-size: 14px;
+        text-align: center;
+    } */
+
+    /* .footer p {
+        font-size: 15px;
+    } */
+}
+/* visualizacion desde una tablet */
+@media (min-width: 481px) and (max-width: 1024px) {
+    /* Historia */
+    .contenedor_grid_historia {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: auto auto auto auto auto auto; 
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .titulo_historia {
+        grid-column: 1/4;
+        grid-row: 1;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    .contenedor_grid_historia img {
+        width: 100%; 
+        height: 100%; 
+        margin: 0 auto; 
+        display: block;
+    }
+
+
+    .img_historia1 {
+        grid-column: 1;
+        grid-row: 2/5;
+    }
+
+
+    .img_historia2 {
+        grid-column: 3;
+        grid-row: 2/7;
+    }
+
+
+    .texto_historia p {
+        grid-column: 1;
+        grid-row: 3 / 6;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    /* inicio */
+    .contenedor-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .contenedor-grid img {
+        width: 400px;
+        height: auto;
+        object-position: center;
+    }
+
+    .img_inicio1,
+    .img_inicio2,
+    .img_inicio3 {
+        grid-column: 1;
+    }
+    .img_inicio1{
+        grid-row: 2;
+    }
+    .img_inicio2{
+        grid-row: 3;
+    }
+    .img_inicio3{
+        grid-row: 4;
+    }
+
+    /* Títulos */
+    .titulo1 {
+        grid-column: 1/3;
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+    .resumen_disney1,
+    .resumen_disney2 {
+        grid-column: 2;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
