@@ -10,13 +10,6 @@
 body{
     background-color: rgb(253, 241, 225) !important;
 }
-.lista_personajes{
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    background-color: rgb(62, 128, 252);
-    font-size: 20px;
-}
 .peliculas ul{
     text-align: center;
     background-color: rgb(62, 128, 252);
@@ -200,28 +193,6 @@ body{
     p {
         font-size: 15px;
     }
-
-    /* Barra de navegación */
-    /* header ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    header li {
-        margin: 5px 0;
-    }
-
-    header li a {
-        font-size: 14px;
-        text-align: center;
-    } */
-
-    /* .footer p {
-        font-size: 15px;
-    } */
 }
 /* visualizacion desde una tablet */
 @media (min-width: 481px) and (max-width: 1024px) {
