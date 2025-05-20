@@ -10,30 +10,6 @@
 body{
     background-color: rgb(253, 241, 225) !important;
 }
-.peliculas ul{
-    text-align: center;
-    background-color: rgb(62, 128, 252);
-    list-style-type: none;
-    text-decoration: none;
-}
-.peliculas ul li{
-    font-size: 20px;
-}
-.personajes_img{
-    padding-left: 36%;
-}
-.peliculas_img{
-    padding-left: 21%;
-}
-.resumen_disney{
-    text-align: center;
-    background-color: rgb(62, 128, 252);
-}
-.resumen{
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
 .contenedor-grid img{
     height: 100%;
     width: 100%;

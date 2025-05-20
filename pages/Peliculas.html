@@ -7,43 +7,123 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <title>Peliculas</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Peliculas.html">Peliculas</a></li>
-                <li><a href="Personajes.html">Personajes</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="conctacto.html">Contacto</a></li>
-                <li><a href="Parques.html">Parques</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light p-3 bg-secondary-subtle"  id="menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../medios/logo.png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/parques.html">Parques</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/historia.html">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/personajes.html">Personajes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/Peliculas.html">Peliculas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-    <section class="Peliculas">
-        <h1 class="tiutlos">Era dorada (1937-1959)</h1>
-        <div class="peliculas">
-            <ul>
-                <li>Blancanieves y los siete enanitos (1937) – El primer largometraje animado de la historia</li>
-                <li>Pinocho (1940) – Historia del muñeco de madera que quiere ser un niño de verdad.</li>
-                <li>Dumbo (1941) – La emotiva historia de un elefante con orejas gigantes.</li>
-                <li>Bambi (1942) – Una de las películas más emotivas de Disney.</li>
-                <li>Cenicienta (1950) – Un clásico de princesas con el icónico Hada Madrina.</li>
-                <li>La bella durmiente (1959) – Presentó a Maléfica, una de las villanas más memorables.</li>
-            </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center mt-4 mb-4">Peliculas mas conocidas del Walt Disney</h1>
+                </div>
+            </div>
         </div>
-    </section>
-    <div class="peliculas_img">
-        <img src="../medios/pelicula 1.jpg" width="200px" alt=""> 
-        <img src="../medios/pelicula 2.jpeg" width="350px" alt="">
-        <video src="../medios/Blanca Nieves _ Tráiler Oficial _ Doblado.mp4" controls width="450px"></video>
-    </div>
+        <div class="container-fluid"> 
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-8">
+                    <p class="fs-3 fw-bold">El Rey León (1994)🦁:</p>
+                    <p class="fs-5">El Rey León es una película que narra la historia de Simba, un joven león que, tras la trágica muerte de su padre Mufasa a manos de su malvado tío Scar, huye de su hogar sintiéndose culpable. Durante su exilio, Simba es acogido por Timón y Pumba, quienes le enseñan a vivir despreocupadamente. Sin embargo, al reencontrarse con su amiga de la infancia, Nala, y recibir la sabiduría del sabio Rafiki, Simba decide regresar a la sabana para reclamar su lugar como rey y restaurar el equilibrio en su reino. La película aborda temas de responsabilidad, valentía y el ciclo de la vida, y es conocida por su emotiva banda sonora, que incluye canciones como "Circle of Life" y "Hakuna Matata" .</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lFzVJEksoDY?si=jhW8xfxEn5saenKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-8">
+                    <p class="fs-3 fw-bold">La Sirenita (1989)🧜‍♀️:</p>
+                    <p class="fs-5">La Sirenita es una película animada estrenada en 1989 que narra la historia de Ariel, una joven sirena curiosa y soñadora que vive en el reino submarino de Atlantica. A pesar de ser hija del rey Tritón, Ariel siente una profunda fascinación por el mundo humano y colecciona objetos que encuentra en los naufragios. Su vida da un giro cuando, tras salvar al príncipe Eric de un naufragio, se enamora perdidamente de él. Deseando convertirse en humana para estar con él, Ariel hace un trato con Úrsula, la malvada bruja del mar, quien le concede piernas humanas a cambio de su voz. Ariel debe conseguir el beso del "verdadero amor" en tres días para que el hechizo sea permanente. A lo largo de la película, Ariel enfrenta desafíos y descubre el verdadero significado del amor y el sacrificio.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tEugAy1kXKQ?si=DPFCq7o6Q0Wo7HLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-8">
+                    <p class="fs-3 fw-bold">Frozen (2013)❄️:</p>
+                    <p class="fs-5">Frozen es una película animada que narra la historia de dos hermanas, Elsa y Anna, en el reino ficticio de Arendelle. Elsa posee poderes mágicos que le permiten crear hielo y nieve, pero después de un accidente en su infancia donde hiere a Anna, sus padres deciden aislar a ambas para protegerlas. Años después, durante la coronación de Elsa como reina, sus poderes se descontrolan, sumiendo al reino en un invierno eterno. Elsa huye a las montañas, donde construye un palacio de hielo y vive en solitario. Anna, decidida a encontrarla y restaurar el verano, emprende un viaje acompañada de Kristoff, un vendedor de hielo, su reno Sven y un muñeco de nieve llamado Olaf. A lo largo de su aventura, Anna descubre que el amor fraternal es la clave para deshacer el hechizo y salvar a su hermana y al reino.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FmrnYJGQQug?si=2JD9E9Xtdv7kNo1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-8">
+                    <p class="fs-3 fw-bold">La Bella y la Bestia (1991)🏰:</p>
+                    <p class="fs-5">La Bella y la Bestia es una película animada de Disney estrenada en 1991. La historia comienza con un príncipe joven y apuesto que, debido a su arrogancia, rechaza a una anciana mendiga que le ofrece una rosa a cambio de refugio. Ella revela ser una hechicera y, como castigo, lo transforma en una monstruosa Bestia. Además, convierte a los sirvientes del castillo en objetos encantados y sella una maldición sobre todo el lugar. La única forma de romper el hechizo es que la Bestia aprenda a amar y sea amado antes de que el último pétalo de una rosa mágica caiga.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wGVuTqlNfLU?si=NhLshEBEJSEJPYjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 col-md-8">
+                    <p class="fs-3 fw-bold">Toy Story (1995)🚀:</p>
+                    <p class="fs-5">Toy Story es una película animada de Pixar y Disney que narra la historia de los juguetes de un niño llamado Andy, quienes cobran vida cuando no están siendo observados por humanos. La trama se centra en la relación entre Woody, un muñeco vaquero de cuerda y líder de los juguetes, y Buzz Lightyear, una figura de acción de un astronauta que llega como el nuevo juguete favorito de Andy. Woody, sintiéndose desplazado, desarrolla celos hacia Buzz, quien cree ser un verdadero guardabosques espacial en una misión para regresar a su planeta natal.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v-PjgYDrg70?si=xcKnn3po2RC_ggfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="footer">
-        <p>Sobre nosotros <a href="Instagram.com">Instagram</a> <a href="facebook.com">Facebook</a> <a href="mail.google.com">Gmail</a></p>
-    </footer>
+<footer class="bg-dark text-white py-4 mt-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mb-3">
+                <h5>Contacto</h5>
+                <p>Correo: bossoletti16@gmail.com</p>
+                <p>Teléfono: +54 9 341 1234 5678</p>
+              </div>
+              <div class="col-md-4 mb-3">
+                <h5>Síguenos</h5>
+                <ul class="list-unstyled d-flex">
+                  <li><a href="https://www.facebook.com/?locale=es_LA" class="text-white me-3 text-decoration-none"><i class="bi bi-facebook"></i>facebook</a></li>
+                </ul>
+                <ul class="list-unstyled d-flex">
+                  <li><a href="https://x.com/?lang=es" class="text-white me-3 text-decoration-none"><i class="bi bi-twitter"></i>Twitter</a></li>
+                </ul>
+                <ul class="list-unstyled d-flex">
+                  <li><a href="https://www.instagram.com/" class="text-white me-3 text-decoration-none"><i class="bi bi-instagram"></i>Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center mt-3">
+              <p class="mb-0">© 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D" crossorigin="anonymous"></script>
 </body>
 </html>
