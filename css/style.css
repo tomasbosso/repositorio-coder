@@ -177,7 +177,7 @@ footer{
     }
 }
 /* visualizacion desde una tablet */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 481px) and (max-width: 1160px) {
     /* Historia */
     .contenedor_grid_historia {
         display: grid;
