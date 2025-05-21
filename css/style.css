@@ -10,6 +10,9 @@
 body{
     background-color: rgb(253, 241, 225) !important;
 }
+.texto_historia p{
+    font-size: 17px !important;
+}
 .contenedor-grid img{
     height: 100%;
     width: 100%;
@@ -80,6 +83,9 @@ body{
 }
 .texto_historia p{
     font-size: 15px;
+}
+footer{
+    
 }
 /* visualizacion para celulares */
 @media (max-width: 480px) {
