@@ -9,10 +9,6 @@ body {
   background-color: rgb(253, 241, 225) !important;
 }
 
-.texto_historia p {
-  font-size: 17px !important;
-}
-
 .contenedor-grid {
   display: grid;
   grid-template-columns: 25% 40% 25%;
@@ -52,9 +48,18 @@ body {
   grid-column: 1;
   grid-row: 3/4;
 }
-.contenedor-grid .texto_inicio {
+
+.subtitulo_inicio {
+  text-align: center;
+}
+
+.texto_inicio {
   background-color: aliceblue;
   font-size: 17px;
+}
+
+.texto_historia p {
+  font-size: 17px !important;
 }
 
 .contenedor_grid_historia {
@@ -184,15 +189,15 @@ body {
     margin: 0 auto;
     display: block;
   }
-  .contenedor_grid_historia .img_historia1 {
+  .img_historia1 {
     grid-column: 1;
     grid-row: 2/5;
   }
-  .contenedor_grid_historia .img_historia2 {
+  .img_historia2 {
     grid-column: 3;
     grid-row: 2/7;
   }
-  .contenedor_grid_historia .texto_historia p {
+  .texto_historia p {
     grid-column: 1;
     grid-row: 3/6;
     font-size: 15px;
@@ -203,7 +208,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
-  img {
+  .contenedor-grid img {
     width: 400px;
     height: auto;
     object-position: center;

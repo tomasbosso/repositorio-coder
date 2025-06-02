@@ -1,118 +1,4 @@
-// Variables
-$color-fondo: rgb(253, 241, 225);
-$color-fondo-claro: aliceblue;
-$fuente-principal: "Oswald", sans-serif;
-$tamaño-fuente-grande: 20px;
-$tamaño-fuente-media: 17px;
-$tamaño-fuente-pequeña: 15px;
-
-// Estilos globales
-* {
-  font-family: $fuente-principal;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: $color-fondo !important;
-}
-
-.texto_historia {
-  p {
-    font-size: $tamaño-fuente-media !important;
-  }
-}
-
-.contenedor-grid {
-  display: grid;
-  grid-template-columns: 25% 40% 25%;
-  grid-template-rows: 100px 300px 300px;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-
-  img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .titulo1 {
-    grid-column: 1/4;
-  }
-
-  .img_inicio1 {
-    grid-column: 1;
-    grid-row: 2/3;
-  }
-
-  .resumen_disney1,
-  .resumen_disney2 {
-    background-color: $color-fondo-claro;
-  }
-
-  .resumen_disney1 {
-    grid-column: 2/3;
-    grid-row: 2;
-  }
-
-  .resumen_disney2 {
-    grid-column: 2/3;
-    grid-row: 3;
-  }
-
-  .img_inicio2 {
-    grid-column: 3;
-    grid-row: 2/4;
-  }
-
-  .img_inicio3 {
-    grid-column: 1;
-    grid-row: 3/4;
-  }
-
-  .texto_inicio {
-    background-color: $color-fondo-claro;
-    font-size: $tamaño-fuente-media;
-  }
-}
-
-.contenedor_grid_historia {
-  display: grid;
-  grid-template-columns: 25% 40% 25%;
-  grid-template-rows: 100px 200px 200px 200px 200px;
-  align-items: center;
-  justify-content: space-around;
-
-  .titulo_historia {
-    grid-column: 1/4;
-  }
-
-  .img_historia1 {
-    grid-column: 1;
-    grid-row: 3/4;
-    width: 300px;
-    height: 400px;
-  }
-
-  .img_historia2 {
-    grid-column: 3;
-    grid-row: 2/6;
-    height: 800px;
-    width: 400px;
-  }
-
-  .texto_historia {
-    grid-column: 2;
-    grid-row: 2/6;
-    background-color: $color-fondo-claro;
-
-    p {
-      font-size: $tamaño-fuente-pequeña;
-    }
-  }
-}
-
+@use "./variables" as*;
 // Estilos para dispositivos móviles
 @media (max-width: 480px) {
   .contenedor_grid_historia {
@@ -228,7 +114,7 @@ body {
       margin: 0 auto;
       display: block;
     }
-
+ }
     .img_historia1 {
       grid-column: 1;
       grid-row: 2/5;
@@ -245,20 +131,17 @@ body {
       font-size: 15px;
       padding: 15px;
     }
-  }
-
   .contenedor-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-  }
 
-    img {
+        img{
       width: 400px;
       height: auto;
       object-position: center;
     }
-
+ }
     .img_inicio1,
     .img_inicio2,
     .img_inicio3 {
@@ -288,4 +171,4 @@ body {
       grid-column: 2;
       font-size: 16px;
     }
-}
+ }

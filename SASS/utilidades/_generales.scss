@@ -1,0 +1,11 @@
+@use "./variables" as*;
+* {
+  font-family: $fuente-principal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-fondo !important;
+}
