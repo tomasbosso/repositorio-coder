@@ -4,3 +4,23 @@ $fuente-principal: "Oswald", sans-serif;
 $tamaño-fuente-grande: 20px;
 $tamaño-fuente-media: 17px;
 $tamaño-fuente-pequeña: 15px;
+
+@mixin grid($grid-template-columns, $grid-template-rows){
+    grid-template-columns: $grid-template-columns;
+    grid-template-rows: $grid-template-rows;
+    align-items: center;
+    justify-content: space-around;
+}
+@mixin animacion-deslizar-izquierda($duracion: 1s) {
+  animation: deslizar-izquierda $duracion forwards;
+}
+@keyframes deslizar-izquierda {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

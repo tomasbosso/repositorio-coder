@@ -5,16 +5,13 @@
   }
 }
 
-
 .contenedor_grid_historia {
   display: grid;
-  grid-template-columns: 25% 40% 25%;
-  grid-template-rows: 100px 200px 200px 200px 200px;
-  align-items: center;
-  justify-content: space-around;
+  @include grid(25% 40% 25%, 100px 200px 200px 200px 200px);
 
   .titulo_historia {
     grid-column: 1/4;
+    @include animacion-deslizar-izquierda(2s);
   }
 
   .img_historia1 {

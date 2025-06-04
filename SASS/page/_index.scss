@@ -2,10 +2,7 @@
 
 .contenedor-grid {
   display: grid;
-  grid-template-columns: 25% 40% 25%;
-  grid-template-rows: 100px 300px 300px;
-  justify-content: space-around;
-  align-items: center;
+  @include grid(25% 40% 25%, 100px 300px 300px);
   gap: 20px;
 
   img {
@@ -15,6 +12,7 @@
 
   .titulo1 {
     grid-column: 1/4;
+    text-align: center;
   }
 
   .img_inicio1 {

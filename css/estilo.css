@@ -1,3 +1,13 @@
+@keyframes deslizar-izquierda {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 * {
   font-family: "Oswald", sans-serif;
   padding: 0;
@@ -13,8 +23,8 @@ body {
   display: grid;
   grid-template-columns: 25% 40% 25%;
   grid-template-rows: 100px 300px 300px;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   gap: 20px;
 }
 .contenedor-grid img {
@@ -23,6 +33,7 @@ body {
 }
 .contenedor-grid .titulo1 {
   grid-column: 1/4;
+  text-align: center;
 }
 .contenedor-grid .img_inicio1 {
   grid-column: 1;
@@ -71,6 +82,7 @@ body {
 }
 .contenedor_grid_historia .titulo_historia {
   grid-column: 1/4;
+  animation: deslizar-izquierda 2s forwards;
 }
 .contenedor_grid_historia .img_historia1 {
   grid-column: 1;
