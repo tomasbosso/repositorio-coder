@@ -7,7 +7,7 @@
 
 .contenedor_grid_historia {
   display: grid;
-  @include grid(25% 40% 25%, 100px 200px 200px 200px 200px);}
+  @include grid(25% 40% 25%, 100px 200px 200px 200px 200px);
 
   .titulo_historia {
     grid-column: 1/4;
