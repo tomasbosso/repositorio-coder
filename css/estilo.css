@@ -39,10 +39,6 @@ body {
   grid-column: 1;
   grid-row: 2/3;
 }
-.contenedor-grid .resumen_disney1,
-.contenedor-grid .resumen_disney2 {
-  background-color: rgb(255, 252, 234);
-}
 .contenedor-grid .resumen_disney1 {
   grid-column: 2/3;
   grid-row: 2;
@@ -65,7 +61,6 @@ body {
 }
 
 .texto_inicio {
-  background-color: rgb(255, 252, 234);
   font-size: 17px;
 }
 
@@ -99,7 +94,6 @@ body {
 .contenedor_grid_historia .texto_historia {
   grid-column: 2;
   grid-row: 2/6;
-  background-color: rgb(255, 252, 234);
 }
 .contenedor_grid_historia .texto_historia p {
   font-size: 15px;
