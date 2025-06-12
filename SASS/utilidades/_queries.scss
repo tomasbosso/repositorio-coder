@@ -119,10 +119,13 @@
     }
 
     .texto_historia{
-      grid-column: 2;
-      grid-row: 3 / 6;
-      font-size: 15px;
-      padding: 15px;
+      grid-column: 1/3;
+      grid-row: 2 / 6;
+      padding: 15px ;
+
+      p{
+              font-size: 15px !important;
+      }
     }
   }
 

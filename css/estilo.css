@@ -203,10 +203,12 @@ body {
     height: 50%;
   }
   .contenedor_grid_historia .texto_historia {
-    grid-column: 2;
-    grid-row: 3/6;
-    font-size: 15px;
+    grid-column: 1/3;
+    grid-row: 2/6;
     padding: 15px;
+  }
+  .contenedor_grid_historia .texto_historia p {
+    font-size: 15px !important;
   }
   .titulo_historia {
     grid-column: 1/4;
