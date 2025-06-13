@@ -156,6 +156,7 @@ body {
   }
   .contenedor-grid .img_inicio3 {
     grid-row: 4;
+    display: none;
   }
   .contenedor-grid .titulo1 {
     grid-column: 1/4;
@@ -233,6 +234,7 @@ body {
   }
   .contenedor-grid .img_inicio3 {
     grid-row: 4;
+    display: none;
   }
   .titulo1 {
     grid-column: 1/3;
