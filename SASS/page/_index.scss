@@ -46,6 +46,14 @@
 .subtitulo_inicio{
     text-align: center;
 }
+.contenedor {
+  display: flex;
+  justify-content: center; 
+  align-items: center;               
+  margin: 0;
+}
 .texto_inicio {
     font-size: $tamaño-fuente-media;
+    text-align: center;
+    width: 75%;
   }

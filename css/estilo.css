@@ -60,8 +60,17 @@ body {
   text-align: center;
 }
 
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .texto_inicio {
   font-size: 17px;
+  text-align: center;
+  width: 75%;
 }
 
 .texto_historia p {
